@@ -34,7 +34,8 @@ h5{
     font-weight: 900;
 }
 p{
-    font-size: 1.6rem;
+    font-size: 1.4rem;
+    font-weight: 200;
     color: var(--text-secondary-color);
 }
 li{
@@ -79,7 +80,7 @@ body{
     background-color: rgba(0, 0, 0, 1);
 }
 header{
-    background-image: linear-gradient(180deg, rgb(35, 35, 35), transparent);
+    background-image: linear-gradient(180deg, rgb(50, 50, 50) -20%, transparent 100%);
 }
 section{
     margin-top: 10rem;
@@ -119,9 +120,12 @@ button:hover{
     background-color: var(--text-primary-color);
     color: var(--primary-color);
 }
-.img{
+img{
     max-width: 100%;
     height: auto;
+}
+h2{
+    margin-bottom: 1.4rem;
 }
 
 
@@ -254,3 +258,31 @@ nav a{
     font-size: 1.3rem;
 }
 
+/* CHANGE YOUR HABITS STYLES */
+.cyh-text-div{
+    text-align: center;
+    width: 70%;
+    margin: 0 auto;
+    margin-bottom: 5.8rem;
+}
+.cyh-bottom-div{
+    display: flex;
+    gap: 4rem;
+    text-align: center;
+}
+.habit-div img{
+    border-radius: 50%;
+    width: 85%;
+    border: .4rem rgba(255, 255, 255, 0.1) solid;
+    margin-bottom: 3rem;
+}
+.habit-div h5{
+    font-size: 1.8rem;
+    font-weight: 600;
+    margin-bottom: .6rem;
+}
+
+/* RUN AN EXTRA MILE STYLES */
+.rem-parent-div{
+    background-color: var(--secondary-color);
+}
