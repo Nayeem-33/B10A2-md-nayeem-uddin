@@ -87,7 +87,7 @@ section{
 }
 .container{
     width: var(--container-width);
-    max-width: 1420px;
+    max-width: 1060px;
     margin: 0 auto;
 }
 a{
@@ -285,4 +285,79 @@ nav a{
 /* RUN AN EXTRA MILE STYLES */
 .rem-parent-div{
     background-color: var(--secondary-color);
+    border-radius: 1.8rem;
+    padding: 5rem;
+    display: flex;
+    align-items: center;
+    gap: 16rem;
+    justify-content: space-between;
+}
+.rem-text-div{
+    width: 50%;
+}
+.rem-parent-div img{
+    border-radius: 1.8rem;
+}
+.rem-parent-div h2{
+    margin-bottom: 1.4rem;
+}
+.rem-parent-div p{
+    margin-bottom: 3.5rem;
+}
+
+/* TRAINING AND EXERCISES STYLES */
+.tne-text-div{
+    width: 70%;
+    margin-bottom: 5.8rem;
+}
+.tne-main-image-div{
+    margin-top: 5rem;
+}
+
+.tne-image-title{
+    color: var(--text-primary-color);
+    font-weight: 500;
+    padding: 25px;
+    text-shadow: .0rem .0rem .5rem var(--secondary-color);
+}
+
+.tne-image-row-1,
+.tne-image-row-2{
+    display: flex;
+    height: 20rem;
+}
+.tne-image{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+}
+.tne-img-div-1{
+    background-image: linear-gradient(180deg, rgba(212, 0, 0, 0.5), rgba(212, 0, 0, 0.5)), url('../assets/exercise1.jpg');
+    width: 25%;
+    align-items: last baseline;
+}
+.tne-img-div-2{
+    background-image: linear-gradient(180deg, rgba(255, 166, 0, 0.5), rgba(255, 166, 0, 0.5)), url('../assets/exercise2.png');
+    width: 45%;
+}
+.tne-img-div-3{
+    background-image: linear-gradient(180deg, rgba(1, 111, 185, 0.5), rgba(1, 111, 185, 0.5)), url('../assets/exercise3.png');
+    width: 30%;
+    align-items: last baseline;
+}
+.tne-img-div-4{
+    background-image: linear-gradient(180deg, rgba(127, 5, 95, 0.5), rgba(127, 5, 95, 0.5)), url('../assets/exercise4.png');
+    width: 40%; 
+    justify-content: flex-end;
+}
+.tne-img-div-5{
+    background-image: linear-gradient(180deg, rgba(143, 201, 58, 0.7), rgba(143, 201, 58, 0.7)), url('../assets/exercise5.jpg');
+    width: 25%;
+    align-items: last baseline;
+}
+.tne-img-div-6{
+    background-image: linear-gradient(180deg, rgba(242, 66, 54, 0.5), rgba(242, 66, 54, 0.5)), url('../assets/exercise6.jpg');
+    width: 35%;
+    justify-content: right;
 }
