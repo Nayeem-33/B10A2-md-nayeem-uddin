@@ -37,6 +37,7 @@ p{
     font-size: 1.4rem;
     font-weight: 200;
     color: var(--text-secondary-color);
+    line-height: 2rem;
 }
 li{
     font-size: 1.8rem;
@@ -211,7 +212,7 @@ nav a{
     letter-spacing: .5rem;
 }
 .hero-image-div{
-    background-image: url(../assets/herobg.png);
+    background-image: url('../assets/herobg.png');
     background-repeat: no-repeat;
     background-position: center;
     width: 45%;
@@ -404,7 +405,6 @@ nav a{
     background-color: var(--primary-color);
     color: var(--secondary-color);
     text-align: center;
-
 }
 .card-price{
     font-size: 5rem;
@@ -460,10 +460,6 @@ td{
 th{
     font-size: 1.6rem;
 }
-
-
-
-
 .bmi-input-div{
     width: 45%;
 }
@@ -517,7 +513,6 @@ select:focus{
 }
 
 /* MEET OUR TEAM STYLES */
-
 .meet-image-div{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -538,7 +533,6 @@ select:focus{
     padding: 20px;
     justify-content: flex-end;
 }
-
 .trainer-images-1{
     background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.1) 30%, rgba(0, 0, 0, 0.6) 100%), url('../assets/trainer1.png');
 }
@@ -558,5 +552,31 @@ select:focus{
     background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.1) 30%, rgba(0, 0, 0, 0.6) 100%), url('../assets/trainer6.png');
 }
 
-
 /* FOOTER STYLES */
+.footer-main-div{
+    display: grid;
+    grid-template-columns: 30% 1fr 1fr;
+    gap: 6rem;
+    padding: 5rem 0;
+}
+footer .logo{
+    font-size: 5rem;
+}
+.linktitle{
+    font-weight: 600;
+    margin-bottom: 2.5rem;
+}
+footer li>a{
+    color: var(--text-secondary-color);
+    font-size: 2rem;
+    line-height: 4rem;
+}
+hr{
+    border: 0.02rem solid var(--text-secondary-color);
+    opacity: 20%;
+}
+.copy-text{
+    text-align: center;
+    font-size: 2rem;
+    padding: 3rem 0;
+}
