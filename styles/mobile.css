@@ -36,6 +36,19 @@
         border: 0.8rem rgba(255, 255, 255, 0.1) solid;
     }
 
+    .tne-img-div-1{
+        grid-column: span 8;
+    }
+    .tne-img-div-2{
+        grid-column: span 12;
+    }
+    .tne-img-div-4{
+        grid-column: span 11;
+    }
+    .tne-img-div-5{
+        grid-column: span 9;
+    }
+    
     .op-card-div{
         display: block;
         padding-bottom: 5rem;
