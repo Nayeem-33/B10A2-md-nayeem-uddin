@@ -105,6 +105,7 @@ li{
     font-weight: 600;
     font-size: 1.8rem;
     cursor: pointer;
+    transition: background-color 0.5s;
 }
 .btn-sec{
     background-color: transparent;
@@ -115,6 +116,7 @@ li{
     font-weight: 600;
     font-size: 1.8rem;
     cursor: pointer;
+    transition: background-color 0.5s;
 }
 .btn-3{
     background-color: var(--secondary-color);
@@ -125,6 +127,7 @@ li{
     font-weight: 600;
     font-size: 1.8rem;
     cursor: pointer;
+    transition: background-color 0.5s;
 }
 button:hover{
     background-color: var(--text-primary-color);
@@ -169,7 +172,7 @@ nav>div>ul{
 nav>div>ul>li>a{
     border-radius: 5rem;
     padding: .8rem 2rem;
-    transition: background-color 0.3s, color 0.3s;
+    transition: background-color 0.5s;
 }
 nav>div>ul>li>a:hover{
     color: var(--secondary-color);
@@ -303,7 +306,7 @@ nav a{
     justify-content: space-between;
 }
 .rem-text-div{
-    width: 50%;
+    width: 35%;
 }
 .rem-parent-div img{
     border-radius: 1.8rem;
@@ -323,14 +326,12 @@ nav a{
 .tne-main-image-div{
     margin-top: 5rem;
 }
-
 .tne-image-title{
     color: var(--text-primary-color);
     font-weight: 500;
     padding: 25px;
     text-shadow: .0rem .0rem .5rem var(--secondary-color);
 }
-
 .tne-image-row-1,
 .tne-image-row-2{
     display: flex;
@@ -390,7 +391,6 @@ nav a{
     line-height: 3.5rem;
     margin-bottom: 3rem;
 }
-
 .card-lr{
     padding: 3rem;
     background-color: var(--secondary-color-light);
@@ -429,3 +429,134 @@ nav a{
     margin-bottom: 2rem;
 }
 
+/* BMI CALCULATOR STYLES */
+.bmisec2{
+    background-color: var(--secondary-color);
+    margin-top: 8rem;
+}
+.bmi-parent-div-2{
+    display: flex;
+    justify-content: space-around;
+    gap: 10rem;
+    padding: 5rem 0;
+}
+.bmi-chart-div{
+    width: 30%;
+}
+table{
+    margin-top: 5rem;
+    width: 100%;
+    border-collapse: collapse;
+}
+th, td{
+    border: .05rem solid var(--text-secondary-color);
+    padding: 1.3rem;
+}
+td{
+    font-size: 1.4rem;
+    color: var(--text-secondary-color);
+    text-align: center;
+  }
+th{
+    font-size: 1.6rem;
+}
+
+
+
+
+.bmi-input-div{
+    width: 45%;
+}
+.bmi-input-div input,
+.bmi-input-div select{
+    background-color: rgba(255, 255, 255, 0.1);
+    color: rgba(255, 255, 255, 0.6);
+    border: none;
+    border-radius: .8rem;
+    padding: 1.2rem 2rem;
+}
+option{
+    background-color: var(--secondary-color);
+}
+.bmi-input-div form{
+    margin-top: 3.4rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+.input-row-1{
+    display: flex;
+    gap: 1rem;
+}
+.input-row-1 input,
+.input-row-1 select{
+    width: 50%;
+}
+.input-row-3 select{
+    width: 100%;
+}
+input:focus, 
+select:focus{
+    outline: none;
+}
+#calculate-button{
+    margin-top: 3rem;
+    background-color: var(--primary-color);
+    padding: 1.4rem 4rem;
+    border: none;
+    border-radius: 4.2rem;
+    color: var(--secondary-color);
+    font-weight: 600;
+    font-size: 1.8rem;
+    cursor: pointer;
+    transition: background-color .5s;
+}
+#calculate-button:hover{
+    background-color: var(--text-primary-color);
+    color: var(--secondary-color);
+}
+
+/* MEET OUR TEAM STYLES */
+
+.meet-image-div{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 100%;
+    gap: 2rem;
+    background-color: var(--secondary-color);
+    padding: 2rem;
+    border-radius: 1.8rem;
+}
+.trainer-images{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    height: 35rem;
+    border-radius: 1.8rem;
+    padding: 20px;
+    justify-content: flex-end;
+}
+
+.trainer-images-1{
+    background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.1) 30%, rgba(0, 0, 0, 0.6) 100%), url('../assets/trainer1.png');
+}
+.trainer-images-2{
+    background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.1) 30%, rgba(0, 0, 0, 0.6) 100%), url('../assets/trainer2.png');
+}
+.trainer-images-3{
+    background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.1) 30%, rgba(0, 0, 0, 0.6) 100%), url('../assets/trainer3.png');
+}
+.trainer-images-4{
+    background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.1) 30%, rgba(0, 0, 0, 0.6) 100%), url('../assets/trainer4.png');
+}
+.trainer-images-5{
+    background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.1) 30%, rgba(0, 0, 0, 0.6) 100%), url('../assets/trainer5.png');
+}
+.trainer-images-6{
+    background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.1) 30%, rgba(0, 0, 0, 0.6) 100%), url('../assets/trainer6.png');
+}
+
+
+/* FOOTER STYLES */
