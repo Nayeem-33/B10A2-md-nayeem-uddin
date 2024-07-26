@@ -35,7 +35,7 @@ h5{
 }
 p{
     font-size: 1.4rem;
-    font-weight: 200;
+    font-weight: 300;
     color: var(--text-secondary-color);
     line-height: 2rem;
 }
@@ -401,7 +401,7 @@ nav a{
     text-align: center;
 }
 .card-mid{
-    padding: 6rem 3rem;
+    padding: 8rem 3rem;
     background-color: var(--primary-color);
     color: var(--secondary-color);
     text-align: center;
@@ -410,12 +410,12 @@ nav a{
     font-size: 5rem;
     color: var(--text-primary-color);
     font-weight: 500;
-    margin-top: 2rem;
+    margin-top: 3rem;
 }
 .per-month{
     font-size: 2rem;
     color: var(--text-secondary-color);
-    margin-bottom: 2rem;
+    margin: 3rem 0;
 }
 .card-price-2{
     font-size: 5rem;
@@ -426,7 +426,7 @@ nav a{
 .per-month-2{
     font-size: 2rem;
     color: var(--secondary-color);
-    margin-bottom: 2rem;
+    margin: 2rem 0;
 }
 
 /* BMI CALCULATOR STYLES */
@@ -570,6 +570,7 @@ footer li>a{
     color: var(--text-secondary-color);
     font-size: 2rem;
     line-height: 4rem;
+    font-weight: 300;
 }
 hr{
     border: 0.02rem solid var(--text-secondary-color);
