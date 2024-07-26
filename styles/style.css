@@ -336,7 +336,7 @@ nav a{
 .tne-image-row-1,
 .tne-image-row-2{
     display: flex;
-    height: 20rem;
+    height: 25rem;
 }
 .tne-image{
     background-position: center;
@@ -369,7 +369,7 @@ nav a{
     align-items: last baseline;
 }
 .tne-img-div-6{
-    background-image: linear-gradient(180deg, rgba(242, 66, 54, 0.5), rgba(242, 66, 54, 0.5)), url('../assets/exercise6.jpg');
+    background-image: linear-gradient(180deg, rgba(100, 35, 8, 0.7), rgba(100, 35, 58, 0.7)), url('../assets/exercise6.jpg');
     width: 35%;
     justify-content: right;
 }
@@ -433,6 +433,13 @@ nav a{
 .bmisec2{
     background-color: var(--secondary-color);
     margin-top: 8rem;
+}
+.bmi-parent-div{
+    display: flex;
+    justify-content: center;
+}
+.bmi-text-div{
+    width: 60%;
 }
 .bmi-parent-div-2{
     display: flex;
@@ -571,6 +578,9 @@ footer li>a{
     font-size: 2rem;
     line-height: 4rem;
     font-weight: 300;
+}
+footer li>a:hover{
+    text-decoration: underline;
 }
 hr{
     border: 0.02rem solid var(--text-secondary-color);
