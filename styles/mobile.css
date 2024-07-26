@@ -22,6 +22,9 @@
     
     
 
+    nav{
+        padding: 1rem 0;
+    }
     .hamburgar{
         display: block;
     }
@@ -31,6 +34,9 @@
         height: 70rem;
     }
 
+    .cyh-bottom-div{
+        grid-template-columns: repeat(1, 1fr);
+    }
     .habit-div img{
         width: 50%;
         border: 0.8rem rgba(255, 255, 255, 0.1) solid;
@@ -82,16 +88,10 @@
         height: 27rem;
     }
 
-    .footer-main-div{
-        grid-template-columns: repeat(1, 1fr);
-    }
-    .footer-about{
-        width: 60%;
-    }
+
 
 
     .hero-div,
-    .cyh-bottom-div,
     .rem-parent-div,
     .op-card-div,
     .bmi-parent-div-2{

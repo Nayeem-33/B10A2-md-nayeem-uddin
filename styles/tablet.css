@@ -1,3 +1,118 @@
 @media screen and (max-width:992px){
 
+        html{
+            font-size: 60%;
+        }
+        
+        :root{    
+            --primary-color: rgb(255, 251, 0);
+            --secondary-color: rgba(34, 34, 34, 1);
+            --secondary-color-light: rgba(34, 34, 34, 0.6);
+        
+            --text-primary-color: rgba(255, 255, 255, 1);
+            --text-secondary-color: rgba(255, 255, 255, 0.5);
+    
+            --container-width: 90%;
+        }
+        
+        section{
+            margin-top: 5rem;
+        }
+        
+        
+        
+        nav{
+            padding: 1rem 0;
+        }
+        .hamburgar{
+            display: block;
+        }
+    
+        .hero-image-div{
+            width: 90%;
+            height: 70rem;
+        }
+    
+        .cyh-bottom-div{
+            grid-template-columns: repeat(2, 1fr);
+            gap: 2rem;
+
+        }
+        .habit-div img{
+            width: 50%;
+            border: 0.8rem rgba(255, 255, 255, 0.1) solid;
+        }
+            
+        .op-card-div{
+            display: block;
+            padding-bottom: 5rem;
+        }
+        .card-lr, .card-mid{
+            margin: 5rem 0;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            padding: 3rem;
+        }
+        .left-div{
+            border-left: 1px solid var(--text-primary-color);
+            padding-left: 5rem;
+            text-align: left;
+        }
+        .left-div2{
+            border-left: 1px solid var(--secondary-color);
+            padding-left: 5rem;
+            text-align: left;
+        }
+    
+        .bmisec2{
+            margin-top: 5rem;
+        }
+    
+        .meet-image-div{
+            grid-template-columns: repeat(3, 1fr);
+        }
+        .trainer-images{
+            height: 27rem;
+        }
+    
+        .footer-about{
+            grid-column: span 6;
+            width: 60%;
+        }
+        .footer-links-1{
+            grid-column: span 3;
+        }
+        .footer-links-2{
+            grid-column: span 3;
+        }
+    
+    
+
+        .hero-div,
+        .cyh-bottom-div,
+        .op-card-div,
+        .bmi-parent-div-2{
+            flex-direction: column;
+        }
+    
+    
+        .navlink{
+            display: none;
+        }
+    
+    
+        .cyh-text-div,
+        .rem-text-div,
+        .bmi-chart-div,
+        .bmi-input-div{
+            width: 100%;
+        }
+    
+    
+        .rem-parent-div,
+        .bmi-parent-div-2{
+            gap: 4rem;
+        }
+    
 }

@@ -280,7 +280,8 @@ nav a{
     margin-bottom: 5.8rem;
 }
 .cyh-bottom-div{
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
     gap: 4rem;
     text-align: center;
 }
@@ -560,7 +561,7 @@ select:focus{
 /* FOOTER STYLES */
 .footer-main-div{
     display: grid;
-    grid-template-columns: 30% 1fr 1fr;
+    grid-template-columns: repeat(6, 1fr);
     gap: 6rem;
     padding: 5rem 0;
 }
@@ -588,4 +589,13 @@ hr{
     text-align: center;
     font-size: 2rem;
     padding: 3rem 0;
+}
+.footer-about{
+    grid-column: span 2;
+}
+.footer-links-1{
+    grid-column: span 2;
+}
+.footer-links-1{
+    grid-column: span 2;
 }
